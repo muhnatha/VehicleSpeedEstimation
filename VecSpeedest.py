@@ -45,6 +45,6 @@ def speedEst(path):
     cv.destroyAllWindows()
 
 if __name__ == "__main__":
-    path = "2103099-uhd_3840_2160_30fps.mp4"
+    path = "2103099-uhd-3840-2160-30fps_PMP29KnQ.mp4"
 
     speedEst(path)
