@@ -1,0 +1,370 @@
+{
+    "video_file_processed": "dataset_cv/amplaz01/Amplaz01a_part_1.mp4",
+    "processing_resolution": "960x540",
+    "frames_processed": 1800,
+    "camera_parameters_used": {
+        "FX": 1300.0,
+        "FY": 1300.0,
+        "depth_scale_factor": 0.01
+    },
+    "depth_sampling": {
+        "method": "median_of_patch",
+        "patch_half_size": 3,
+        "min_metric_depth_threshold": 0.1
+    },
+    "vehicle_summary_statistics": [
+        {
+            "id": 1,
+            "class_name": "car",
+            "min_speed_kmh": 0.72,
+            "max_speed_kmh": 88.51,
+            "average_speed_kmh": 20.45,
+            "speed_readings_count": 80
+        },
+        {
+            "id": 2,
+            "class_name": "car",
+            "min_speed_kmh": 0.03,
+            "max_speed_kmh": 54.08,
+            "average_speed_kmh": 15.91,
+            "speed_readings_count": 37
+        },
+        {
+            "id": 3,
+            "class_name": "car",
+            "min_speed_kmh": 0.59,
+            "max_speed_kmh": 80.28,
+            "average_speed_kmh": 18.63,
+            "speed_readings_count": 81
+        },
+        {
+            "id": 8,
+            "class_name": "car",
+            "min_speed_kmh": 0.6,
+            "max_speed_kmh": 50.65,
+            "average_speed_kmh": 17.35,
+            "speed_readings_count": 89
+        },
+        {
+            "id": 13,
+            "class_name": "car",
+            "min_speed_kmh": 1.88,
+            "max_speed_kmh": 139.65,
+            "average_speed_kmh": 32.75,
+            "speed_readings_count": 68
+        },
+        {
+            "id": 14,
+            "class_name": "car",
+            "min_speed_kmh": 0.86,
+            "max_speed_kmh": 123.29,
+            "average_speed_kmh": 27.94,
+            "speed_readings_count": 92
+        },
+        {
+            "id": 22,
+            "class_name": "car",
+            "min_speed_kmh": 0.81,
+            "max_speed_kmh": 177.57,
+            "average_speed_kmh": 28.37,
+            "speed_readings_count": 104
+        },
+        {
+            "id": 23,
+            "class_name": "small truck",
+            "min_speed_kmh": 12.14,
+            "max_speed_kmh": 12.14,
+            "average_speed_kmh": 12.14,
+            "speed_readings_count": 1
+        },
+        {
+            "id": 32,
+            "class_name": "car",
+            "min_speed_kmh": 0.91,
+            "max_speed_kmh": 114.41,
+            "average_speed_kmh": 25.84,
+            "speed_readings_count": 113
+        },
+        {
+            "id": 33,
+            "class_name": "car",
+            "min_speed_kmh": 1.17,
+            "max_speed_kmh": 791.42,
+            "average_speed_kmh": 42.01,
+            "speed_readings_count": 32
+        },
+        {
+            "id": 35,
+            "class_name": "car",
+            "min_speed_kmh": 0.93,
+            "max_speed_kmh": 99.08,
+            "average_speed_kmh": 14.26,
+            "speed_readings_count": 96
+        },
+        {
+            "id": 36,
+            "class_name": "car",
+            "min_speed_kmh": 0.65,
+            "max_speed_kmh": 163.23,
+            "average_speed_kmh": 22.99,
+            "speed_readings_count": 113
+        },
+        {
+            "id": 38,
+            "class_name": "car",
+            "min_speed_kmh": 0.24,
+            "max_speed_kmh": 164.25,
+            "average_speed_kmh": 17.43,
+            "speed_readings_count": 165
+        },
+        {
+            "id": 45,
+            "class_name": "car",
+            "min_speed_kmh": 0.95,
+            "max_speed_kmh": 27.09,
+            "average_speed_kmh": 9.35,
+            "speed_readings_count": 29
+        },
+        {
+            "id": 51,
+            "class_name": "car",
+            "min_speed_kmh": 1.15,
+            "max_speed_kmh": 123.66,
+            "average_speed_kmh": 25.92,
+            "speed_readings_count": 98
+        },
+        {
+            "id": 52,
+            "class_name": "car",
+            "min_speed_kmh": 0.35,
+            "max_speed_kmh": 136.32,
+            "average_speed_kmh": 19.4,
+            "speed_readings_count": 165
+        },
+        {
+            "id": 54,
+            "class_name": "car",
+            "min_speed_kmh": 10.29,
+            "max_speed_kmh": 58.58,
+            "average_speed_kmh": 32.91,
+            "speed_readings_count": 6
+        },
+        {
+            "id": 55,
+            "class_name": "car",
+            "min_speed_kmh": 4.54,
+            "max_speed_kmh": 9.04,
+            "average_speed_kmh": 6.79,
+            "speed_readings_count": 2
+        },
+        {
+            "id": 56,
+            "class_name": "car",
+            "min_speed_kmh": 0.78,
+            "max_speed_kmh": 139.11,
+            "average_speed_kmh": 23.14,
+            "speed_readings_count": 131
+        },
+        {
+            "id": 57,
+            "class_name": "car",
+            "min_speed_kmh": 25.94,
+            "max_speed_kmh": 25.94,
+            "average_speed_kmh": 25.94,
+            "speed_readings_count": 1
+        },
+        {
+            "id": 58,
+            "class_name": "car",
+            "min_speed_kmh": 25.28,
+            "max_speed_kmh": 64.94,
+            "average_speed_kmh": 45.11,
+            "speed_readings_count": 2
+        },
+        {
+            "id": 62,
+            "class_name": "car",
+            "min_speed_kmh": 26.85,
+            "max_speed_kmh": 26.85,
+            "average_speed_kmh": 26.85,
+            "speed_readings_count": 1
+        },
+        {
+            "id": 66,
+            "class_name": "car",
+            "min_speed_kmh": 4.11,
+            "max_speed_kmh": 54.05,
+            "average_speed_kmh": 31.56,
+            "speed_readings_count": 7
+        },
+        {
+            "id": 67,
+            "class_name": "car",
+            "min_speed_kmh": 6.64,
+            "max_speed_kmh": 135.69,
+            "average_speed_kmh": 45.4,
+            "speed_readings_count": 42
+        },
+        {
+            "id": 69,
+            "class_name": "car",
+            "min_speed_kmh": 7.42,
+            "max_speed_kmh": 54.1,
+            "average_speed_kmh": 22.8,
+            "speed_readings_count": 4
+        },
+        {
+            "id": 71,
+            "class_name": "car",
+            "min_speed_kmh": 17.12,
+            "max_speed_kmh": 55.63,
+            "average_speed_kmh": 36.37,
+            "speed_readings_count": 2
+        },
+        {
+            "id": 72,
+            "class_name": "car",
+            "min_speed_kmh": 1.82,
+            "max_speed_kmh": 42.58,
+            "average_speed_kmh": 18.35,
+            "speed_readings_count": 12
+        },
+        {
+            "id": 74,
+            "class_name": "car",
+            "min_speed_kmh": 14.71,
+            "max_speed_kmh": 40.7,
+            "average_speed_kmh": 27.71,
+            "speed_readings_count": 2
+        },
+        {
+            "id": 75,
+            "class_name": "small truck",
+            "min_speed_kmh": 1.76,
+            "max_speed_kmh": 36.18,
+            "average_speed_kmh": 13.78,
+            "speed_readings_count": 24
+        },
+        {
+            "id": 77,
+            "class_name": "car",
+            "min_speed_kmh": 1.53,
+            "max_speed_kmh": 433.13,
+            "average_speed_kmh": 37.61,
+            "speed_readings_count": 48
+        },
+        {
+            "id": 78,
+            "class_name": "small truck",
+            "min_speed_kmh": 14.45,
+            "max_speed_kmh": 19.15,
+            "average_speed_kmh": 16.8,
+            "speed_readings_count": 2
+        },
+        {
+            "id": 79,
+            "class_name": "small truck",
+            "min_speed_kmh": 19.24,
+            "max_speed_kmh": 19.24,
+            "average_speed_kmh": 19.24,
+            "speed_readings_count": 1
+        },
+        {
+            "id": 83,
+            "class_name": "small truck",
+            "min_speed_kmh": 3.1,
+            "max_speed_kmh": 8.0,
+            "average_speed_kmh": 5.48,
+            "speed_readings_count": 3
+        },
+        {
+            "id": 82,
+            "class_name": "car",
+            "min_speed_kmh": 0.96,
+            "max_speed_kmh": 47.1,
+            "average_speed_kmh": 23.14,
+            "speed_readings_count": 39
+        },
+        {
+            "id": 89,
+            "class_name": "car",
+            "min_speed_kmh": 0.4,
+            "max_speed_kmh": 177.25,
+            "average_speed_kmh": 22.55,
+            "speed_readings_count": 138
+        },
+        {
+            "id": 90,
+            "class_name": "car",
+            "min_speed_kmh": 0.22,
+            "max_speed_kmh": 167.6,
+            "average_speed_kmh": 23.49,
+            "speed_readings_count": 135
+        },
+        {
+            "id": 91,
+            "class_name": "car",
+            "min_speed_kmh": 0.71,
+            "max_speed_kmh": 132.12,
+            "average_speed_kmh": 18.91,
+            "speed_readings_count": 152
+        },
+        {
+            "id": 92,
+            "class_name": "car",
+            "min_speed_kmh": 8.1,
+            "max_speed_kmh": 20.59,
+            "average_speed_kmh": 14.36,
+            "speed_readings_count": 3
+        },
+        {
+            "id": 100,
+            "class_name": "car",
+            "min_speed_kmh": 0.38,
+            "max_speed_kmh": 289.79,
+            "average_speed_kmh": 21.23,
+            "speed_readings_count": 160
+        },
+        {
+            "id": 107,
+            "class_name": "car",
+            "min_speed_kmh": 0.68,
+            "max_speed_kmh": 200.41,
+            "average_speed_kmh": 22.57,
+            "speed_readings_count": 127
+        },
+        {
+            "id": 111,
+            "class_name": "car",
+            "min_speed_kmh": 1.1,
+            "max_speed_kmh": 160.18,
+            "average_speed_kmh": 26.88,
+            "speed_readings_count": 102
+        },
+        {
+            "id": 114,
+            "class_name": "big bus",
+            "min_speed_kmh": 1.42,
+            "max_speed_kmh": 25.42,
+            "average_speed_kmh": 13.62,
+            "speed_readings_count": 5
+        },
+        {
+            "id": 119,
+            "class_name": "car",
+            "min_speed_kmh": 5.08,
+            "max_speed_kmh": 41.48,
+            "average_speed_kmh": 24.7,
+            "speed_readings_count": 7
+        },
+        {
+            "id": 120,
+            "class_name": "car",
+            "min_speed_kmh": 29.0,
+            "max_speed_kmh": 41.35,
+            "average_speed_kmh": 35.18,
+            "speed_readings_count": 2
+        }
+    ],
+    "overall_average_speed_of_averages_kmh": 23.48
+}
