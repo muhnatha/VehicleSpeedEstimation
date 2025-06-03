@@ -3,18 +3,18 @@ import numpy as np
 
 # Data untuk Nilai Error Model pada Video Amplaz01a
 labels_amplaz01a = ['MAE (Km/h)', 'RMSE (Km/h)', 'MAPE (Km/h)']
-yolov11m_amplaz01a = [4.974, 6.338, 0.191]
-yolov11n_amplaz01a = [6.117, 7.485, 0.241]
+yolov11m_amplaz01a = [4.974, 6.338, 19.133]
+yolov11n_amplaz01a = [6.117, 7.485, 24.135]
 
 # Data untuk Nilai Error Model pada Video FKH01
 labels_fkh01 = ['MAE (Km/h)', 'RMSE (Km/h)', 'MAPE (Km/h)']
-yolov11m_fkh01 = [10.677, 13.192, 0.475]
-yolov11n_fkh01 = [10.78, 12.059, 0.484]
+yolov11m_fkh01 = [10.677, 13.192, 47.451]
+yolov11n_fkh01 = [10.78, 12.059, 48.494]
 
 # Data untuk Nilai Error Model pada Video FKH02
 labels_fkh02 = ['MAE (Km/h)', 'RMSE (Km/h)', 'MAPE (Km/h)']
-yolov11m_fkh02 = [6.603, 7.856, 0.266]
-yolov11n_fkh02 = [12.28, 13.049, 0.506]
+yolov11m_fkh02 = [6.603, 7.856, 26.576]
+yolov11n_fkh02 = [12.28, 13.049, 50.632]
 
 def plot_model_comparison(labels, data_m, data_n, title, model_m_name='YOLOv11m', model_n_name='YOLOv11n'):
     x = np.arange(len(labels))  
